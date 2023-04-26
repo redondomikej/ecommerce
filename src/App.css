@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#cardHighlight {
+  min-height: 300px;
+ overflow: hidden;
+
+}
+
+#container {
+   /* background-color: rgb(200, 250, 179); */
+   min-width: 100vw;
+   padding: 2rem 5rem;
+}
+
+#loginform {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  min-height: 80vh;
+}
+#regform {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  min-height: 80vh;
+}
+ 
+ .hero {
+  background-size: cover;
+  background-position: center;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-content {
+  text-align: center;
+}
+
+.hero-title {
+  font-size: 4rem;
+  font-weight: bold;
+  color: black;
+  margin-bottom: 1rem;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.hero-subtitle {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+#hero-button {
+  background-color: #EEC100;
+  color: white;
+  font-size: 1.5rem;
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  transition: all 0.3s ease-in-out;
+}
+
+#product-btn {
+  background-color: #FFC300;
+  color: white;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  transition: all 0.3s ease-in-out;
+}
+
+#hero-button:hover, #product-btn:hover {
+  transform: scale(1.1);
+}
